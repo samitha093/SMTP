@@ -1,6 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
 import NxWelcome from './nx-welcome';
+import {UiLogin,Register} from '@smtp/ui-login'
+
 
 import { Route, Routes, Link } from 'react-router-dom';
 
@@ -16,6 +18,7 @@ export function App() {
       <br />
       <hr />
       <br />
+      <Register/>
       <div role="navigation">
         <ul>
           <li>
